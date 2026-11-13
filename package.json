@@ -1,0 +1,17 @@
+{
+  "name": "agridrone-hub",
+  "version": "1.0.0",
+  "description": "AgriDrone Hub - More Flights. Less Idle Time. Higher Farm Profitability.",
+  "main": "server/index.js",
+  "scripts": {
+    "dev": "node dev.js",
+    "client": "npm run dev --prefix client",
+    "server": "node server/index.js",
+    "build": "npm run build --prefix client",
+    "seed": "node server/initDb.js",
+    "start": "node dev.js"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
